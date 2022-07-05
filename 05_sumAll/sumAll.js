@@ -1,7 +1,6 @@
 const sumAll = function(a,b) {
     //error cases
-    if (a < 0 || b < 0 || !Number.isInteger(a) || !Number.isInteger(b)
-    ) {
+    if (a < 0 || b < 0 || !Number.isInteger(a) || !Number.isInteger(b)) {
         return "ERROR";
     }
 
