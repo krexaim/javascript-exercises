@@ -1,6 +1,5 @@
 const palindromes = function (str) {
-    let alnum = str.replace(/[^0-9A-Z]+/gi,"");
-    let clean = alnum.toLowerCase();
+    let clean = str.toLowerCase().replace(/[^0-9A-Z]+/gi,"");
     let backwards = "";
 
     for (let i = clean.length - 1; i >= 0; i--) {
